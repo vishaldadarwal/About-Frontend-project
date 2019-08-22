@@ -1,0 +1,269 @@
+body
+{
+ 
+ margin: 0;
+ padding:0; 
+ 
+}
+
+
+
+
+/*---header---*/
+
+
+.showcase
+{
+    min-height: 400px;
+    color:white;
+   width:100%;
+}
+
+.showcase img
+{
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    width: 100% ;
+    z-index: -1;
+}
+.showcase h4
+{
+    font-size: 3em;
+    padding-top: 110px;
+    padding-bottom: 0;
+}
+.showcase p
+{
+    font-size: 1.2em;
+    padding-bottom: 0;
+}
+
+
+/*---section A---*/
+
+.sectionab 
+    {
+        padding-left:6rem !important;
+        padding-right:6rem !important; 
+     
+    }
+    .sectionab h1
+    {
+        font-size:2rem;
+        padding-top:10px;
+        padding-bottom: 10px;
+
+
+    }
+    
+    
+
+/*---section b---*/
+
+.section-bb
+{
+    padding-left:6rem !important;
+    padding-right:6rem !important; 
+}
+.bg-color1
+{
+    background-color:rgb(15, 171, 233); 
+    width:100%;
+}
+.section-b h1
+{
+    padding-top:50px; 
+    font-size:2rem;
+    color: white;
+}
+.section-b p
+{
+    font-size:1rem;
+}
+.section-b1
+{
+    padding:10px; 
+}
+.section-b1 h5
+{
+    font-size:0.8rem;
+}
+
+.section-b1 p
+{
+    font-size:0.7rem;
+}
+
+
+/*---section c---*/
+
+.section-c
+{
+    padding-left:6rem !important;
+    padding-right:6rem !important; 
+}
+.section-c h4
+{
+    font-size:2rem;
+    padding-top:10px;
+}
+.section-c p
+{
+    font-size:1.2rem;
+    padding-bottom:10px;
+}
+.bg-color2
+{
+    background-color: rgb(235, 240, 241);
+    
+}
+.section-c2 h4
+{
+    padding-top:30px;
+    font-size: 1.5rem;
+}
+.section-c2 h3
+{
+    font-size: 1.1rem;
+}
+.section-c1
+{
+    padding-left:6rem !important;
+    padding-right:6rem !important; 
+}
+.section-c3 img
+{
+    width:100%;
+    margin:5rem auto;
+
+}
+.section-c4 h5
+{
+    font-size:1.5rem;
+}
+
+.section-c4 p
+{
+    padding-bottom: 30px;
+}
+
+/*---section D---*/
+.section-d
+{
+    padding-left:6rem !important;
+    padding-right:6rem !important; 
+
+}
+.section-d1 h5
+{
+   margin-top:50px;
+   font-size:1.5rem;
+   
+} 
+.section-d1 p
+{
+    margin-bottom: 40px;
+}
+.section-d2 h4
+{
+  font-size:1.2rem;
+  margin-top:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+.section-d2 p
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+}
+.section-d2 img
+{
+   
+    margin: 40px;
+    width:80%;
+    
+}
+.col-border
+{
+    border:0.5px solid black;
+    margin-bottom:10px;
+}
+.col-border1
+{
+    border:0.5px solid black;
+    margin-bottom:60px;
+   
+}
+
+@media screen and (max-width:580px) {
+    .showcase
+    {
+        min-height:320px;
+    }
+    .showcase img
+    {
+        height:320px;
+    }
+    .sectionab 
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+     
+    }
+    .section-bb
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-c
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-c1
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-d
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+
+}
+@media screen and (max-width: 900px) {
+    
+    .sectionab 
+    {
+        padding-left:1.5rem !important;
+        padding-right:1.5rem !important; 
+     
+    }
+    .section-bb
+    {
+        padding-left:1.5rem !important;
+        padding-right:1.5rem !important; 
+    }
+    .section-c
+    {
+        padding-left:1.5rem !important;
+        padding-right:1.5rem !important; 
+    }
+    .section-c1
+    {
+        padding-left:1.5rem !important;
+        padding-right:1.5rem !important; 
+    }
+    .section-d
+    {
+        padding-left:1.5rem !important;
+        padding-right:1.5rem !important; 
+    }
+}
